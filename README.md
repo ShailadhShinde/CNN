@@ -104,7 +104,34 @@ is_iceberg - the target variable, set to 1 if it is an iceberg, and 0 if it is a
 
 - ### Model <a name="model"></a>
 
-  
+  Input Shape: (75, 75, 3)
+
+ Conv2D (64 filters, 3x3 kernel, ReLU) 
+ Conv2D (64 filters, 3x3 kernel, ReLU)
+ Conv2D (64 filters, 3x3 kernel, ReLU)
+ MaxPooling2D (3x3 pool, strides 2x2)
+
+ Conv2D (128 filters, 3x3 kernel, ReLU)
+ Conv2D (128 filters, 3x3 kernel, ReLU)
+ Conv2D (128 filters, 3x3 kernel, ReLU)
+ MaxPooling2D (2x2 pool, strides 2x2)
+
+ Conv2D (128 filters, 3x3 kernel, ReLU)
+ MaxPooling2D (2x2 pool, strides 2x2)
+
+ Conv2D (256 filters, 3x3 kernel, ReLU)
+ MaxPooling2D (2x2 pool, strides 2x2)
+
+ Flatten
+
+ Dense (1024 units, ReLU)
+ Dropout (0.4)
+
+ Dense (512 units, ReLU)
+ Dropout (0.2)
+
+ Dense (1 unit, Sigmoid)
+
 
 ----
 
