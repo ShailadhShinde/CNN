@@ -1,7 +1,7 @@
 
 <div align="center">
 
-![logo](https://github.com/ShailadhShinde/Time_series/blob/main/assets/header.png)  
+![logo](https://github.com/ShailadhShinde/CNN/blob/main/assets/header.png)  
 <h1 align="center"><strong>Statoil/C-CORE Iceberg Classifier Challenge
  <h6 align="center">A Featured Prediction (CV) project</h6></strong></h1>
 
@@ -139,6 +139,22 @@ Replaced NA inc_angle with 0
 
 ----
 
+## Demo
+   <p align="center">
+  <img width="60%" src="https://github.com/ShailadhShinde/CNN/blob/main/assets/1.JPG">
+ </p>
+   <p align="center">
+  <img width="60%" src="https://github.com/ShailadhShinde/CNN/blob/main/assets/2.JPG">
+ </p>
+   <p align="center">
+  <img width="60%" src="https://github.com/ShailadhShinde/CNN/blob/main/assets/ship.png">
+ </p>
+   <p align="center">
+  <img width="60%" src="https://github.com/ShailadhShinde/CNN/blob/main/assets/icerberg.png">
+ </p>
+ 
+
+----
 ## 💫 Results <a name="results"></a>
 
   Got a good score resulting in top 1 % of the kaggle leader board
