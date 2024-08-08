@@ -139,28 +139,32 @@ Replaced NA inc_angle with 0
 
 ----
 
-## Demo
+## ✨ Demo
+
+Inputs
+
    <p align="center">
-  <img width="60%" src="https://github.com/ShailadhShinde/CNN/blob/main/assets/1.JPG">
+  <img width="60%" height ="40%"  src="https://github.com/ShailadhShinde/CNN/blob/main/assets/1.JPG">
  </p>
    <p align="center">
-  <img width="60%" src="https://github.com/ShailadhShinde/CNN/blob/main/assets/2.JPG">
+  <img width="60%" height ="300"  src="https://github.com/ShailadhShinde/CNN/blob/main/assets/2.JPG">
  </p>
    <p align="center">
-  <img width="60%" src="https://github.com/ShailadhShinde/CNN/blob/main/assets/ship.png">
+  <img width="60%" height ="400"  src="https://github.com/ShailadhShinde/CNN/blob/main/assets/ship.png">
  </p>
    <p align="center">
-  <img width="60%" src="https://github.com/ShailadhShinde/CNN/blob/main/assets/icerberg.png">
+  <img width="60%" height ="400"  src="https://github.com/ShailadhShinde/CNN/blob/main/assets/iceberg.png">
  </p>
  
 
 ----
 ## 💫 Results <a name="results"></a>
 
-  Got a good score resulting in top 1 % of the kaggle leader board
+  The top score of the competiton was 0.08227 usign 100s of models.
+  got a score of 0.15943 using only a single model 😄
   
    <p align="center">
-  <img width="60%" src="https://github.com/ShailadhShinde/Time_series/blob/main/assets/score.JPG">
+  <img width="60%" src="https://github.com/ShailadhShinde/CNN/blob/main/assets/score.jpg">">
  </p>
 
   
@@ -175,6 +179,6 @@ Replaced NA inc_angle with 0
  Before starting to train a model, make sure to download the dataset from <a href="https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data" target="_blank">here </a> or add it to your notebook
  ### 🐳 Setting up and Running the project
 
- Just download/copy the files `time_series.py / time_Series.ipynb ` and `EDA.ipynb / EDA.py ` and run them
+ Just download/copy the files `iceberg.py / iceberg.ipynb ` and `EDA.ipynb / EDA.py ` and run them
 
   
