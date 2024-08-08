@@ -27,12 +27,12 @@ This project focuses on:
 
 ### 📋 Table of Contents
 - [Overview](#overview)
-  - [About the dataset](#atd)
-  - [Sample Selection](#ss)
+  - [About the data](#atd)
   - [Preprocessing](#pp)
-  - [Feature Engineering](#fe)
+  - [Things I tried but did not work](#TT)
   - [Evaluation](#eval)
-  - [Model](#model)
+  - [Architecture](#arch)
+- [Demo](#demo)
 - [Results](#results)
 - [Getting Started](#gs)
   - [Prerequisites](#pr)
@@ -92,7 +92,7 @@ Due to the relatively small train set I used Image augmentation.For augmentation
 Added third channel as band3 (band1 + band2)/2.
 Replaced NA inc_angle with 0
 
-- ### Things I tried but did not work  <a name="fe"></a>
+- ### Things I tried but did not work  <a name="TT"></a>
 
   - preprocessing in ['mean_std', 'minmax', 'raw']
   - cnn_type in ['simple','double']
@@ -103,43 +103,46 @@ Replaced NA inc_angle with 0
 
 - ### Evaluation  <a name="eval"></a>
   The evaluation metric used is Log-Loss (Cross -Entropy)
-  
+   ![logloss](https://github.com/ShailadhShinde/CNN/blob/main/assets/eval.JPG)
 
 
-- ### Model <a name="model"></a>
+- ### Architecture <a name="arch"></a>
 
-  Input Shape: (75, 75, 3)
+`
 
- Conv2D (64 filters, 3x3 kernel, ReLU) 
- Conv2D (64 filters, 3x3 kernel, ReLU)
- Conv2D (64 filters, 3x3 kernel, ReLU)
- MaxPooling2D (3x3 pool, strides 2x2)
+    Input Shape: (75, 75, 3)
 
- Conv2D (128 filters, 3x3 kernel, ReLU)
- Conv2D (128 filters, 3x3 kernel, ReLU)
- Conv2D (128 filters, 3x3 kernel, ReLU)
- MaxPooling2D (2x2 pool, strides 2x2)
+    Conv2D (64 filters, 3x3 kernel, ReLU) 
+    Conv2D (64 filters, 3x3 kernel, ReLU)
+    Conv2D (64 filters, 3x3 kernel, ReLU)
+    MaxPooling2D (3x3 pool, strides 2x2)
 
- Conv2D (128 filters, 3x3 kernel, ReLU)
- MaxPooling2D (2x2 pool, strides 2x2)
+    Conv2D (128 filters, 3x3 kernel, ReLU)
+    Conv2D (128 filters, 3x3 kernel, ReLU)
+    Conv2D (128 filters, 3x3 kernel, ReLU)
+    MaxPooling2D (2x2 pool, strides 2x2)
 
- Conv2D (256 filters, 3x3 kernel, ReLU)
- MaxPooling2D (2x2 pool, strides 2x2)
+    Conv2D (128 filters, 3x3 kernel, ReLU)
+    MaxPooling2D (2x2 pool, strides 2x2)
 
- Flatten
+    Conv2D (256 filters, 3x3 kernel, ReLU)
+    MaxPooling2D (2x2 pool, strides 2x2)
 
- Dense (1024 units, ReLU)
- Dropout (0.4)
+    Flatten
 
- Dense (512 units, ReLU)
- Dropout (0.2)
+    Dense (1024 units, ReLU)
+    Dropout (0.4)
 
- Dense (1 unit, Sigmoid)
+    Dense (512 units, ReLU)
+    Dropout (0.2)
+
+    Dense (1 unit, Sigmoid)
+    
 
 
 ----
 
-## ✨ Demo
+## ✨ Demo <a name="demo"></a>
 
 Inputs
 
