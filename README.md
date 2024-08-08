@@ -78,7 +78,6 @@ Now coming to features, for the purpose of this demo code, I am extracting all t
 
 `train.json`,` test.json`
 
-
 The files consist of a list of images, and for each image, you can find the following fields:
 
 - id - the id of the image 
@@ -95,17 +94,16 @@ Replaced NA inc_angle with 0
 
 - ### Things I tried but did not work  <a name="fe"></a>
 
- - preprocessing in ['mean_std', 'minmax', 'raw']
- - cnn_type in ['simple','double']
- - conv_layers in [[64,128,128,64], [32, 64, 128,128], [64, 128, 256]]
- - FE in filters on images ['gaussian','laplace',etc]
- - transfer learning ['Vgg16']
- - various custom cnn architecture
+  - preprocessing in ['mean_std', 'minmax', 'raw']
+  - cnn_type in ['simple','double']
+  - conv_layers in [[64,128,128,64], [32, 64, 128,128], [64, 128, 256]]
+  - FE in filters on images ['gaussian','laplace',etc]
+  - transfer learning ['Vgg16']
+  - various custom cnn architecture
 
 - ### Evaluation  <a name="eval"></a>
   The evaluation metric used is Log-Loss (Cross -Entropy)
   
- L=1NN∑i=1(yilog(pi)+(1−yi)log(1−pi))
 
 
 - ### Model <a name="model"></a>
