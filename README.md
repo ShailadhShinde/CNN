@@ -88,8 +88,8 @@ inc_angle - the incidence angle of which the image was taken. Note that this fie
 `The train data` contains time series of the stores and the product families combination. The sales column gives the total sales for a product family at a particular store at a given date. Fractional values are possible since products can be sold in fractional units (1.5 kg of cheese, for instance, as opposed to 1 bag of chips).The onpromotion column gives the total number of items in a product family that were being promoted at a store at a given date.
 
 - ### Preprocessing  <a name="pp"></a>
-Due to the relatively small train set I used Image augmentation.For augmentation I used flip, flop, zoom, rotation and shift.
-Added third channel as band3 (band1 + band2)/2.
+ - Due to the relatively small train set I used Image augmentation.For augmentation I used flip, flop, zoom, rotation and shift.
+ - Added third channel as band3 (band1 + band2)/2.
 Replaced NA inc_angle with 0
 
 - ### Things I tried but did not work  <a name="TT"></a>
@@ -108,7 +108,7 @@ Replaced NA inc_angle with 0
 
 - ### Architecture <a name="arch"></a>
 
-`
+Architecture used 
 
     Input Shape: (75, 75, 3)
 
