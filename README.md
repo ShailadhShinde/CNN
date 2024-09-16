@@ -40,8 +40,7 @@ This project focuses on:
 
 ###  📌 Project Overview  <a name="overview"></a>
 
-This project is a Notebook about time series forcasting for store sales.The purpose is to predict sales for 1000s of products sold at favourite stores located in South America’s west coast Ecuador. [Click here for more INFO](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)
-
+This project is a notebook which will predict whether an image contains a ship or an iceberg. The labels are provided by human experts and geographic knowledge on the target. All the images are 75x75 images with two bands.
 - ### About the data <a name="atd"></a>
 
 Sentinet -1 sat is at about 680 Km above earth. Sending pulses of signals at a particular angle of incidence and then recoding it back. Basically those reflected signals are called backscatter. The data we have been given is backscatter coefficient which is the conventional form of backscatter coefficient given by:
