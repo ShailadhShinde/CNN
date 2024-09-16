@@ -10,10 +10,9 @@
 </div>
 This project focuses on:
 
-- Exploratory Data Analysis
-- 
--
--
+- Image Classification using CNN
+- Demonstration of Transfer learning using VGG16
+- Implementaion using CNN Architectures
 
 #### -- Project Status: [Completed]
 
