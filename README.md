@@ -17,9 +17,7 @@ This project focuses on:
 
 #### -- Project Status: [Completed]
 
-#### -- time_series.py / time_Series.ipynb - Contains code for the project
-
-#### -- eda-time-series.ipynb / EDA.py - Exploratory Data Analysis [Click to view](https://www.kaggle.com/code/shailadh/eda-time-series?scriptVersionId=190759981)
+#### -- iceberg.py / iceberg.ipynb - Contains code for the project
 
 ----
 
