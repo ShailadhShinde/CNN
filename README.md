@@ -161,7 +161,7 @@ Inputs
 
   The top score of the competiton was 0.08227 usign 100s of models.
   
-  Got a score of 0.15943 using only a single model 😄
+  Got a score of 0.15943 using only a single model 
   
    <p align="center">
   <img width="60%" src="https://github.com/ShailadhShinde/CNN/blob/main/assets/score.jpg">
